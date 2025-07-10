@@ -6,6 +6,7 @@ import AvatarDemo from "@/components/AvatarDemo";
 import CheckboxDemo from "@/components/CheckboxDemo";
 import CollapsibleDemo from "@/components/CollapsibleDemo";
 import ContextMenuDemo from "@/components/ContextMenu";
+import DialogDemo from "@/components/DialogDemo";
 
 export default function Home() {
   return (
@@ -16,13 +17,14 @@ export default function Home() {
       {/* <AspectRatioDemo /> */}
       {/* <CheckboxDemo /> */}
       {/* <CollapsibleDemo /> */}
-      <ContextMenuDemo />
+      {/* <ContextMenuDemo />
       <button
         onClick={() => console.log("클릭")}
         className="ml-12 border px-3 py-1 rounded-full my-3"
       >
         모달 기능 확인용 클릭버튼
-      </button>
+      </button> */}
+      <DialogDemo />
     </div>
   );
 }
