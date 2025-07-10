@@ -8,6 +8,7 @@ import CollapsibleDemo from "@/components/CollapsibleDemo";
 import ContextMenuDemo from "@/components/ContextMenu";
 import DialogDemo from "@/components/DialogDemo";
 import DropdownMenuDemo from "@/components/DropdownMenuDemo";
+import HoverCardDemo from "@/components/HoverCardDemo";
 
 export default function Home() {
   return (
@@ -26,7 +27,8 @@ export default function Home() {
         모달 기능 확인용 클릭버튼
       </button> */}
       {/* <DialogDemo /> */}
-      <DropdownMenuDemo />
+      {/* <DropdownMenuDemo /> */}
+      <HoverCardDemo />
     </div>
   );
 }
