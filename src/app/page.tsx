@@ -3,6 +3,7 @@ import AlertDialogDemo from "@/components/AlertDialogDemo";
 import AspectRatioDemo from "@/components/AspectRatioDemo";
 import AvatarDemo from "@/components/AvatarDemo";
 import CheckboxDemo from "@/components/CheckboxDemo";
+import CollapsibleDemo from "@/components/CollapsibleDemo";
 
 export default function Home() {
   return (
@@ -11,7 +12,8 @@ export default function Home() {
       {/* <AccordionDemo /> */}
       {/* <AlertDialogDemo /> */}
       {/* <AspectRatioDemo /> */}
-      <CheckboxDemo />
+      {/* <CheckboxDemo /> */}
+      <CollapsibleDemo />
     </div>
   );
 }
