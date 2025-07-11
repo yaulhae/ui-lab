@@ -10,6 +10,7 @@ import DialogDemo from "@/components/DialogDemo";
 import DropdownMenuDemo from "@/components/DropdownMenuDemo";
 import HoverCardDemo from "@/components/HoverCardDemo";
 import LabelDemo from "@/components/LabelDemo";
+import MenubarDemo from "@/components/MenuBarDemo";
 
 export default function Home() {
   return (
@@ -30,7 +31,8 @@ export default function Home() {
       {/* <DialogDemo /> */}
       {/* <DropdownMenuDemo /> */}
       {/* <HoverCardDemo /> */}
-      <LabelDemo />
+      {/* <LabelDemo /> */}
+      <MenubarDemo />
     </div>
   );
 }
