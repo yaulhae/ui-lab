@@ -11,6 +11,7 @@ import DropdownMenuDemo from "@/components/DropdownMenuDemo";
 import HoverCardDemo from "@/components/HoverCardDemo";
 import LabelDemo from "@/components/LabelDemo";
 import MenubarDemo from "@/components/MenuBarDemo";
+import PopoverDemo from "@/components/PopOverDemo";
 
 export default function Home() {
   return (
@@ -32,7 +33,8 @@ export default function Home() {
       {/* <DropdownMenuDemo /> */}
       {/* <HoverCardDemo /> */}
       {/* <LabelDemo /> */}
-      <MenubarDemo />
+      {/* <MenubarDemo /> */}
+      <PopoverDemo />
     </div>
   );
 }
