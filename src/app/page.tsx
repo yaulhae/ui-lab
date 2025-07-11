@@ -9,6 +9,7 @@ import ContextMenuDemo from "@/components/ContextMenu";
 import DialogDemo from "@/components/DialogDemo";
 import DropdownMenuDemo from "@/components/DropdownMenuDemo";
 import HoverCardDemo from "@/components/HoverCardDemo";
+import LabelDemo from "@/components/LabelDemo";
 
 export default function Home() {
   return (
@@ -28,7 +29,8 @@ export default function Home() {
       </button> */}
       {/* <DialogDemo /> */}
       {/* <DropdownMenuDemo /> */}
-      <HoverCardDemo />
+      {/* <HoverCardDemo /> */}
+      <LabelDemo />
     </div>
   );
 }
