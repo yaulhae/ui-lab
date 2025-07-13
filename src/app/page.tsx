@@ -15,6 +15,7 @@ import PopoverDemo from "@/components/PopOverDemo";
 import ProgressDemo from "@/components/ProgressDemo";
 import RadioGroupDemo from "@/components/RadioGroupDemo";
 import ScrollAreaDemo from "@/components/ScrollAreaDemo";
+import SelectDemo from "@/components/SelectDemo";
 
 export default function Home() {
   return (
@@ -40,7 +41,8 @@ export default function Home() {
       {/* <PopoverDemo /> */}
       {/* <ProgressDemo /> */}
       {/* <RadioGroupDemo />// */}
-      <ScrollAreaDemo />
+      {/* <ScrollAreaDemo /> */}
+      <SelectDemo />
     </div>
   );
 }
