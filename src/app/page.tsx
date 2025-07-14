@@ -17,6 +17,7 @@ import RadioGroupDemo from "@/components/RadioGroupDemo";
 import ScrollAreaDemo from "@/components/ScrollAreaDemo";
 import SelectDemo from "@/components/SelectDemo";
 import SeparatorDemo from "@/components/SeparatorDemo";
+import SliderDemo from "@/components/SliderDemo";
 
 export default function Home() {
   return (
@@ -44,7 +45,8 @@ export default function Home() {
       {/* <RadioGroupDemo />// */}
       {/* <ScrollAreaDemo /> */}
       {/* <SelectDemo /> */}
-      <SeparatorDemo />
+      {/* <SeparatorDemo /> */}
+      <SliderDemo />
     </div>
   );
 }
