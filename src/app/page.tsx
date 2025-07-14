@@ -19,6 +19,7 @@ import SelectDemo from "@/components/SelectDemo";
 import SeparatorDemo from "@/components/SeparatorDemo";
 import SliderDemo from "@/components/SliderDemo";
 import SwitchDemo from "@/components/SwitchDemo";
+import TabsDemo from "@/components/TabsDemo";
 
 export default function Home() {
   return (
@@ -48,7 +49,8 @@ export default function Home() {
       {/* <SelectDemo /> */}
       {/* <SeparatorDemo /> */}
       {/* <SliderDemo /> */}
-      <SwitchDemo />
+      {/* <SwitchDemo /> */}
+      <TabsDemo />
     </div>
   );
 }
