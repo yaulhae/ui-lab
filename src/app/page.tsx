@@ -18,6 +18,7 @@ import ScrollAreaDemo from "@/components/ScrollAreaDemo";
 import SelectDemo from "@/components/SelectDemo";
 import SeparatorDemo from "@/components/SeparatorDemo";
 import SliderDemo from "@/components/SliderDemo";
+import SwitchDemo from "@/components/SwitchDemo";
 
 export default function Home() {
   return (
@@ -46,7 +47,8 @@ export default function Home() {
       {/* <ScrollAreaDemo /> */}
       {/* <SelectDemo /> */}
       {/* <SeparatorDemo /> */}
-      <SliderDemo />
+      {/* <SliderDemo /> */}
+      <SwitchDemo />
     </div>
   );
 }
