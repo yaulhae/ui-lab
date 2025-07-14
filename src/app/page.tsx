@@ -16,6 +16,7 @@ import ProgressDemo from "@/components/ProgressDemo";
 import RadioGroupDemo from "@/components/RadioGroupDemo";
 import ScrollAreaDemo from "@/components/ScrollAreaDemo";
 import SelectDemo from "@/components/SelectDemo";
+import SeparatorDemo from "@/components/SeparatorDemo";
 
 export default function Home() {
   return (
@@ -42,7 +43,8 @@ export default function Home() {
       {/* <ProgressDemo /> */}
       {/* <RadioGroupDemo />// */}
       {/* <ScrollAreaDemo /> */}
-      <SelectDemo />
+      {/* <SelectDemo /> */}
+      <SeparatorDemo />
     </div>
   );
 }
