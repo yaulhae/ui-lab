@@ -22,6 +22,7 @@ import SwitchDemo from "@/components/SwitchDemo";
 import TabsDemo from "@/components/TabsDemo";
 import ToastDemo from "@/components/ToastDemo";
 import ToggleDemo from "@/components/ToggleDemo";
+import ToggleGroupDemo from "@/components/ToggleGroupDemo";
 
 export default function Home() {
   return (
@@ -54,7 +55,8 @@ export default function Home() {
       {/* <SwitchDemo /> */}
       {/* <TabsDemo /> */}
       {/* <ToastDemo /> */}
-      <ToggleDemo />
+      {/* <ToggleDemo /> */}
+      <ToggleGroupDemo />
     </div>
   );
 }
