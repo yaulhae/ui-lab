@@ -23,6 +23,7 @@ import TabsDemo from "@/components/TabsDemo";
 import ToastDemo from "@/components/ToastDemo";
 import ToggleDemo from "@/components/ToggleDemo";
 import ToggleGroupDemo from "@/components/ToggleGroupDemo";
+import ToolbarDemo from "@/components/ToolbarDemo";
 
 export default function Home() {
   return (
@@ -56,7 +57,8 @@ export default function Home() {
       {/* <TabsDemo /> */}
       {/* <ToastDemo /> */}
       {/* <ToggleDemo /> */}
-      <ToggleGroupDemo />
+      {/* <ToggleGroupDemo /> */}
+      <ToolbarDemo />
     </div>
   );
 }
