@@ -21,6 +21,7 @@ import SliderDemo from "@/components/SliderDemo";
 import SwitchDemo from "@/components/SwitchDemo";
 import TabsDemo from "@/components/TabsDemo";
 import ToastDemo from "@/components/ToastDemo";
+import ToggleDemo from "@/components/ToggleDemo";
 
 export default function Home() {
   return (
@@ -52,7 +53,8 @@ export default function Home() {
       {/* <SliderDemo /> */}
       {/* <SwitchDemo /> */}
       {/* <TabsDemo /> */}
-      <ToastDemo />
+      {/* <ToastDemo /> */}
+      <ToggleDemo />
     </div>
   );
 }
